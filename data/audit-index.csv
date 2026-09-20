@@ -1,201 +1,553 @@
 chapter,item,title,original_grade,audit_status,study_design,source_status,numeric_check,causal_strength,population_match,last_verified
-1,1,"系安全带，前排后排都系",A,"已核验可信","官方事故数据/效果估计","verified","match","moderate","partial","2026-09-20"
-1,2,"骑摩托车、电动自行车戴头盔并扣好",A,"基本可信但需限定","系统综述-观察性研究","verified","match","moderate","partial","2026-09-20"
-1,7,"量血压，高了就吃药降到达标",A,"基本可信但标题过度简化","RCT系统综述/meta","verified","match","high","partial","2026-09-20"
-1,8,"35岁以后超重查血糖",A,"基本可信但人群范围写宽","USPSTF指南","verified","mostly_match","guideline","partial","2026-09-20"
-1,10,"4岁以下儿童用安全座椅",A,"已核验可信","官方事故数据/效果估计","verified","match","moderate","good","2026-09-20"
-1,12,"儿童近水不离视线，划船野泳穿救生衣",A,"基本可信但证据被拼接","匹配队列","verified","match","low-moderate","partial","2026-09-20"
-1,13,"60岁以上练平衡和腿部力量",A,"已核验可信","Cochrane RCT系统综述","verified","match","high","good","2026-09-20"
-1,16,"女性接种HPV疫苗，越早越好",A,"基本可信但癌症终点来自队列","全国登记队列","verified","match","moderate","good","2026-09-20"
-1,17,"40-74岁女性每两年乳腺钼靶",A,"已核验可信","USPSTF指南","verified","match","guideline","good","2026-09-20"
-1,18,"30岁以上女性宫颈癌筛查优先HPV",A,"基本可信但方案需按本地指南","整群RCT","verified","match","high","partial","2026-09-20"
-1,19,"45-50岁起结直肠癌筛查 FIT 或肠镜",A,"基本可信但证据映射不严谨","RCT+旧FOBT综述","verified","partial","mixed","partial","2026-09-20"
-1,20,"心血管病人和老年人每年打流感疫苗",A,"基本可信但外推健康老人较弱","随机双盲RCT+meta","verified","match","high for post-MI","partial","2026-09-20"
-1,21,"50岁以后打带状疱疹疫苗",A,"已核验可信","三期RCT","verified","match","high","good","2026-09-20"
-1,22,"65岁以上打肺炎球菌疫苗",A,"基本可信但疫苗产品不可互换","随机双盲RCT","verified","match","high for PCV13","partial","2026-09-20"
-1,23,"查幽门螺杆菌，阳性就根除",A,"基本可信但绝对收益受地区风险影响","随机干预长期随访","verified","match","high","partial","2026-09-20"
-1,24,"重度吸烟者每年低剂量CT",A,"基本可信但高危定义需现行指南","RCT","verified","match","high","partial","2026-09-20"
-1,28,"性行为全程安全套，不共用针具",A,"基本可信但多结论需分别取证","系统综述/meta-观察性","verified","match for HIV condoms","moderate","partial","2026-09-20"
-1,29,"高危行为后检测，免费保密",A,"基本可信但需动态政策核验","法规+前瞻队列","verified","partial","mixed","partial","2026-09-20"
-1,3,"烟雾报警器/一氧化碳报警器",B,"基本可信但效应来源有限","病例比较+官方统计","verified","match for smoke detector","low-moderate","partial","2026-09-20"
-1,4,"燃气软管和灶具到期就换",A,"已核验可信","法规","verified","match","legal","good","2026-09-20"
-1,5,"不采不买不吃野生蘑菇",A,"已核验可信-统计事实","官方监测报告","verified","match","descriptive","good","2026-09-20"
-1,6,"电动自行车不推进楼道不在家充电",A,"基本可信但标题比法条更宽","部门规章","verified","partial","legal","partial","2026-09-20"
-1,9,"开车不超速不酒驾",B,"已核验可信","WHO风险资料","verified","match","moderate","good","2026-09-20"
-1,11,"儿童窗户护栏/限位器",B,"基本可信但多措施混合","公共卫生项目观察","verified","match","low-moderate","partial","2026-09-20"
-1,14,"查乙肝状态未免疫者补种",A,"基本可信但成人外推过度","整群随机试验","verified","match neonatal","high neonatal","partial","2026-09-20"
-1,15,"污染或深伤口评估破伤风",B,"已核验可信","CDC指南/监测","verified","match","guideline","good","2026-09-20"
-1,25,"自杀念头时求助并限制致命手段",B,"基本可信但多研究拼接","系统综述+生态研究","verified","partial","moderate population","partial","2026-09-20"
-1,26,"家庭备应急装备",B,"基本可信但装备效应不可单独归因","Cochrane综述","verified","partial","mixed","partial","2026-09-20"
-1,27,"肉眼血尿需评估",B,"基本可信但PPV不可直接泛化","病例对照/电子病历","verified","partial","diagnostic association","partial","2026-09-20"
-1,30,"自杀念头出现尽快告诉身边人",B,"基本可信但样本小","单中心回顾访谈","verified","match","low","partial","2026-09-20"
-1,33,"不要卖肾/切肾换钱",A,"基本可信但正规捐献不能直接量化黑市","大型队列","verified","match for donors","moderate","partial","2026-09-20"
-1,34,"不拆来路不明放射源部件",A,"已核验可信","官方监管数据+事故报告","verified","match","descriptive/legal","good","2026-09-20"
-1,31,"中毒救回来也可能留后遗症",B,"基本可信但多研究拼接","毒理综述+RCT","verified","match for cited outcomes","mixed","partial","2026-09-20"
-1,32,"高处坠落存活仍可能重伤",B,"基本可信但人群外推明显","单中心回顾队列","verified","match","low-moderate","partial","2026-09-20"
-2,1,"戒烟，越早越好",A,"已核验可信","see audit report","verified","match","see audit report","see audit report","2026-09-20"
-2,2,"别在家里和车里抽烟",A,"核心结论可信","see audit report","verified","match","see audit report","see audit report","2026-09-20"
-2,3,"不喝含糖饮料",A,"基本可信但因果表述应收敛","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-2,4,"不嚼槟榔",A,"核心建议可信","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-2,5,"把食盐换成低钠盐",A,"RCT 很强，但人群需限定","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-2,6,"认真刷牙、清牙缝、缺牙及时补",B,"证据不足以支持“降低死亡”行动处方","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-2,7,"每天走到 7000–8000 步",A,"数字可信、因果不足","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-2,8,"高血压、高血脂按医嘱吃药",A,"核心治疗证据可信","see audit report","verified","match","see audit report","see audit report","2026-09-20"
-2,9,"每晚睡 7 小时左右、作息固定",A,"基本可信但多为观察关联","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-2,10,"每周 150–300 分钟中等强度运动",A,"行动方向可信，死亡率幅度为观察性","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-2,11,"每周打三次球拍类运动，每次 45 分钟",A,"标题比证据更具体","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-2,12,"每天攒四五分钟零碎剧烈活动",A,"研究真实但为观察性","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-2,13,"每周做 30–60 分钟力量训练",A,"关联可信，剂量峰值不宜当硬阈值","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-2,14,"别连着坐太久",A,"基本可信但 2.63 倍明显受反向因果影响","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-2,15,"少吃加工肉",A,"基本可信","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-2,16,"少喝或不喝酒",A,"总体方向可信、精确阈值仍有争议","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-2,17,"每天吃一小把坚果",A,"观察关联，不是坚果 RCT 的死亡效应","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-2,18,"把一部分红肉换成鱼和禽肉",A,"所引研究没有真正做“替换试验”","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-2,19,"精米白面换一部分全谷物",A,"基本可信但死亡率数字为观察性","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-2,20,"每周喝三次以上茶",A,"具体频率处方证据不足","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-2,21,"每天喝三到四杯咖啡",A,"伞形综述真实，但作者明确提醒因果不足","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-2,22,"每天吃够约 400 g 水果蔬菜",A,"行动方向合理、剂量死亡率为观察关联","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-2,23,"少吃超加工食品",A,"关联证据广泛，但总体 GRADE 多为低至中等","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-2,24,"不喝甜味饮料，无糖的也算",A,"对“无糖饮料也应不喝”的因果证据不足","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-2,25,"做饭取暖不烧煤和柴",A,"核心方向可信","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-2,26,"不喝滚烫饮料",A,"核心建议可信","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-2,27,"白天出门晒太阳，别整天不见光",B,"瑞典 cohort 不足以支持普遍“晒太阳延寿”","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-2,28,"BMI 控制在 20–25，超重就减",A,"关联较稳定，但“减重=获得同等死亡收益”不成立","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-2,29,"每周吃四次以上辣椒",B,"证据不足以形成建议","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-2,30,"每天喝一两份奶或酸奶",B,"主要来自 PURE cohort","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-2,31,"鸡蛋不用戒，但别每天三四个",B,"结论方向谨慎但证据冲突","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-2,32,"有条件就泡澡",B,"不足以作为延寿建议","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-3,1,"关掉非必要通知，手机放视线之外",B,"小实验支持短时认知影响","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-3,2,"固定起床时间，周末也一样",B,"证据较弱","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-3,3,"每晚睡够 7–8 小时，别把 6 小时当够用",A,"核心实验可信","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-3,4,"下午两点以后不碰咖啡因",A,"咖啡因影响睡眠可信，但“下午两点”不是统一阈值","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-3,5,"邮件/消息每天固定几次批量处理",B,"有小型交叉研究支持压力下降","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-3,6,"深度工作时挡住哪怕几秒的打断",B,"实验支持错误和压力上升","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-3,7,"一次只做一件事",B,"任务切换成本可信，媒体多任务因果不足","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-3,8,"睡前一小时不看发光屏幕",B,"发光电子书实验可信，时间阈值外推","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-3,9,"不为游戏、短视频、色情内容熬夜",B,"“别挤占睡眠”可信，内容类型不是证据重点","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-3,10,"深夜不做重大决定、不发要紧消息",B,"外推明显","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-3,11,"下午困了睡 10 分钟，不要睡半小时",B,"单一实验支持 10 分钟短睡优势","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-3,12,"开放式办公室用耳塞/找安静房",B,"噪音损害实验支持，但“耳塞”未直接测试","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-3,13,"每周工作不要超过 49 小时",B,"“49 小时”不应作为现代知识工作的硬阈值","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-3,14,"反复回想糟心事时换个需要动手的活",B,"反刍有害可信，“换个动手活”是作者推论","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-3,15,"把“事情肯定会更糟”当症状看",B,"悲观与死亡关联不等于纠正想法能延寿","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-3,16,"减少让你消耗的人际关系",C,"只能视为经验建议","see audit report","partial","partial","see audit report","see audit report","2026-09-20"
-3,17,"固定低价值决策",C,"节省时间合理，但“决策疲劳资源耗竭”理论已被大型复制削弱","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-3,18,"生气时先离场、换角度解释",B,"情绪调节证据支持方向","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-3,19,"情绪低落先运动、晒光、睡好、找人说",A,"多个有效干预被混成一个标题","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-3,20,"和机构打交道靠文书和期限，不靠情绪",C,"规则部分可核验，心理结论属经验","see audit report","partial","partial","see audit report","see audit report","2026-09-20"
-3,21,"给刷同龄人动态的应用设限或关掉",A,"RCT 支持部分因果，但平台/场景外推","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-3,22,"觉得所有人看到你出丑时，把估计除以二",B,"现象可信，“除以二”不是通用算法","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-3,23,"把“别人要求我完美”当症状看",B,"相关可信，不能当诊断法","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-4,1,"把“打算做”写成“几点、在哪、遇到什么就做什么”",A,"核心结论可信","see audit report","verified","match","see audit report","see audit report","2026-09-20"
-4,2,"开工前写下退出条件",B,"概念有依据，但“退出条件”不是该 meta 的直接标准化干预","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-4,3,"继续与否只看未来投入和回报",B,"沉没成本效应存在","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-4,4,"估工期按过去同类任务实际耗时",B,"规划谬误可靠，具体数字来自小样本","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-4,5,"会前发议程；能站着开就站着开",B,"两部分证据强度不同","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-4,6,"砍会议数量，能异步就不开会",B,"前半有疲劳关联，后半缺直接比较","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-4,7,"大任务拆成子任务再估时、开工",B,"拆分有助估时，减拖延部分是间接证据","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-4,8,"没外部截止就自己定日期",B,"原研究验证的是外部截止，不是自设截止","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-4,9,"用自己的时薪决定家务外包",B,"“买时间更幸福”有实验支持，时薪算法是作者决策规则","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-4,10,"给短视频和无目的刷屏设硬上限",C,"统计可核验，行动建议缺直接证据","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-4,11,"不看电视和滚动新闻，定时集中看",C,"总量统计真实，建议属经验","see audit report","partial","partial","see audit report","see audit report","2026-09-20"
-4,12,"花一次时间学常用软件的快捷键和自动化",B,"方向可信，但效应证据较弱","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-4,13,"选住处时把通勤时长放在前面",B,"通勤满意度下降较稳定，但整体生活满意度证据不一致","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-5,1,"关掉所有自动续费，改手动续",C,"经验建议","see audit report","partial","partial","see audit report","see audit report","2026-09-20"
-5,2,"每年3–6月做个税汇算",A,"现行政策已核验","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-5,3,"公积金可用于租房、装修、物业费",A,"2026新规已核验","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-5,4,"每年重算手机宽带套餐",A,"核心维权规则可信，标题外推","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-5,5,"不买彩票",A,"数学期望方向可信","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-5,6,"“高收益/保本/稳赚”直接走开",A,"风险识别方向可信","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-5,7,"不用信用卡最低还款、不为消费分期",C,"成本风险真实，结论过于绝对","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-5,8,"不给主播打赏、不游戏充值、不冲动下单",B,"没有直接效果证据","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-5,9,"未成年人不相称的大额充值可主张退",A,"法律依据可信","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-5,10,"孩子被要求拿家长手机/验证码操作就当诈骗",B,"高价值反诈启发式","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-5,11,"拒绝电子产品延保",B,"旧美国零售数据外推明显","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-5,12,"优先选过一致性评价和集采中选药",A,"总体可信，但不能脱离医生和具体药物","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-5,13,"办医保家庭共济",A,"已核验且2026范围更宽","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-5,14,"喝烧开的自来水，不长期买瓶装水",C,"多数地区可行但高度依赖当地水质/管网","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-5,15,"不频繁交易股票",A,"核心证据可信","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-5,16,"不借钱投资、不加杠杆、不买看不懂的",B,"风险管理原则可信","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-5,17,"宽基指数基金作为长期底仓",B,"有充分金融学依据，但不是人人唯一正确","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-5,18,"同类基金优先低费率",C,"算术上成立","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-5,19,"不把钱押在单一股票/平台/房产",B,"分散化原则可信","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-5,20,"交个税的人开个人养老金账户，每年12000元税前扣除",A,"税收政策可信，“不交个税就不划算”过度","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-5,21,"健身房按次/短周期付费",B,"风险控制合理但非研究定律","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-5,22,"预付款签书面合同；商家风险时要求退余额",A,"现行司法解释更强支持","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-5,23,"大额购买设24小时冷静期，网购用七日无理由",C,"七日退货有法定依据，24小时是经验规则","see audit report","partial","partial","see audit report","see audit report","2026-09-20"
-5,24,"不为划线价和大促囤货",C,"行为经济学方向合理","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-5,25,"保险优先消费型，把返还分红视为不保证",C,"“分红不保证”可信，产品选择不能一刀切","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-5,26,"三者险买够",A,"交强险限额固定，商业三者额度需个体化","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-5,27,"存3–6个月生活费应急金",C,"常见财务规划经验值","see audit report","partial","partial","see audit report","see audit report","2026-09-20"
-5,28,"提前还房贷先比较利率和替代收益",C,"决策框架正确","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-5,29,"网购认平台规则和法条，不认主播好评",A,"核心方向可信","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-5,30,"直播间出问题向平台索要卖家和带货人信息",A,"2026新规已核验","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-5,31,"不安全食品可主张十倍价款，最低1000元",A,"条件成立时正确","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-5,32,"买大件查抽检、3C、能效标识",B,"实用但适用范围不同","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-5,33,"手串玉石名表潮玩按消费而非存款算",A,"风险提示合理，原A过高","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-5,34,"珠宝玉石只认CMA检测报告",A,"2026后已过时/表述错误","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-5,35,"盲盒抽卡按钱不会回来算",A,"作为预算规则合理，A级证据不成立","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-6,1,"不要为了长寿/防心血管病吃复合维生素",A,"对“延寿/防CVD”基本可信，但不能说所有多维都没价值","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-6,2,"不要为预防心血管病吃普通鱼油",A,"对一般人群一级预防基本可信","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-6,3,"不缺维生素D的人别为长寿补D",A,"核心结论可信","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-6,4,"不要为防癌吃β胡萝卜素/维E/维A",A,"证据较强","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-6,5,"不要指望氨糖/软骨素治膝关节炎",A,"总体效果有限，但“完全无效”过强","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-6,6,"不要靠维C预防感冒",A,"一般人群可信","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-6,7,"无症状别做全身PET-CT/肿瘤标志物套餐",A,"核心方向可信","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-6,8,"不要指望手环/手表量化运动帮你减重",B,"设备不是“减重药”，但可作为行为工具","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-6,9,"不要为“更健康”花溢价买有机食品",B,"健康优势证据有限，价值判断因人而异","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-6,10,"不要花大钱买保健品/膏方/滋补品“调理”",C,"过度概括","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-6,11,"没肠道问题不要长期吃益生菌",B,"基本合理但需菌株/人群特异","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-6,12,"不要为增强免疫力逼自己洗冷水澡",B,"“增强免疫”证据弱","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-6,13,"不要买排毒、清肠、酵素、碱性水",C,"核心科学判断可信","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-6,14,"不必强迫自己每天8杯水",C,"基本可信","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-6,15,"不要用算命塔罗星座做决定",B,"作为预测工具缺乏可靠验证","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-6,16,"不要买防蓝光眼镜“保护视力”",A,"已核验可信","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-6,17,"不要把献血当保健",A,"核心结论可信","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-6,18,"不要靠通用体检套餐防病",A,"已核验可信","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-6,19,"无症状高尿酸不要自动开始降尿酸药",A,"按主流指南基本可信","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-6,20,"无症状胆囊结石别预防性切胆囊",A,"一般人群基本可信","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-6,21,"防肾结石不要把钙戒掉",A,"核心结论可信","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-6,22,"不要为转运招财买水晶貔貅",B,"对“超自然功效”无可信证据","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-6,23,"不要指望买东西改善心情/身份感",B,"表述过强","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-6,24,"不要为在周围人里往上挪一档多花钱换房换车换圈子",B,"社会比较效应存在，但属于价值选择","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-7,1,"失业先申领失业保险金",A,"核心方向可信","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-7,2,"欠薪先劳动监察，再劳动仲裁",A,"核心路径可信","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-7,3,"打不起官司就申请法律援助",A,"已核验","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-7,4,"走投无路去救助站",A,"基本可信","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-7,5,"急危重症先救治，没钱也拨120",A,"核心原则可信","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-7,6,"找活先用免费公共就业服务",A,"基本可信","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-7,7,"突发变故先申请临时救助",B,"核心方向可信","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-7,8,"收入低于低保线就申请低保",A,"仅收入低于线并非唯一条件","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-7,9,"持残疾人证申请残疾人两项补贴",A,"需符合补贴类别条件","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-7,10,"居民医保每年400元不要断",A,"2026很多地区是400元，但不是全国统一","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-7,11,"重病先走医保、大病保险、医疗救助和异地备案",A,"路径可信","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-7,12,"身份证丢了立即补办，急用办临时证",A,"核心可信","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-7,13,"办失业登记后争取就业困难人员认定",B,"方向可信但资格地方化","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-7,14,"失业期间领培训/见习/社保补贴",A,"可用政策真实，不是所有失业者都同时符合","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-7,15,"求职用系统方法：学技巧、定目标、找人帮",A,"干预证据支持但不保证找到工作","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-7,16,"不交押金、不押证件、不签培训贷、不进传销、不借高利贷",A,"多数是明确风险红线","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-7,17,"住房困难先排公租房",B,"可能很有用，但资格高度地方化","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-7,18,"把住和吃压到最低：合租、自炊",B,"经验建议","see audit report","partial","partial","see audit report","see audit report","2026-09-20"
-7,19,"社保断缴不要慌：养老按累计，医保按规则补",A,"核心方向可信","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-7,20,"坐过牢、破过产、失信都有重来路径",A,"方向可信但过于概括","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-7,21,"医保外配一年期医疗险或重疾险",B,"保险配置属于个体决策","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-7,22,"实在没地方睡优先救助站",C,"安全建议合理","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-8,1,"交通事故先停车、救人、报警，不要跑",A,"核心法律义务可信","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-8,2,"发现被骗立刻110/96110要求止付",A,"高价值应急动作","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-8,3,"反诈硬规则：不轻信、不透露、不点链接、转账多核实",B,"作为通用启发式可信","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-8,4,"视频见脸、电话听声都不算核实，转账前用旧号码回拨",B,"2026仍高度适用","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-8,5,"被指控/传唤先请律师，不私了、不删记录",A,"“请律师/保留证据”合理，“一律不私了”过强","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-8,6,"喝酒后不碰方向盘，包括“挪一下”",A,"核心法律风险可信","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-8,7,"不把银行卡、手机卡、支付账号借人，“跑分”不是兼职",A,"高风险法律提醒可信","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-8,8,"每年免费查两次征信报告",A,"已核验","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-8,9,"冲突先报警不动手",A,"风险控制方向对，但“先动手几乎一定吃亏”不是法律规则","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-8,10,"躲不掉的侵害可还手，对方停你就停",A,"核心正当防卫原则可信","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-8,11,"欠薪/被开除/被骗走投诉仲裁起诉，不去报复",A,"法律路径可信","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-8,12,"不对无关人下手，驾车冲撞人群等可能构成危害公共安全罪",A,"核心刑法结论可信","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-8,13,"出现“同归于尽/拉垫背”念头按急症处理",B,"安全处置合理，证据主要来自自杀危机研究","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-8,14,"身边人明确威胁伤己伤人，不要只当气话",A,"法律依据明确","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-8,15,"网上不造谣侮辱；被网暴先留证",A,"核心法律风险可信","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
-8,16,"签字前把纸看完，不替人签、不签空白纸",A,"实用风险控制，部分是经验规则","see audit report","partial","partial","see audit report","see audit report","2026-09-20"
-8,17,"借钱写借条；担保前想清楚是否愿意替他还",A,"核心法律区分可信","see audit report","verified","partial","see audit report","see audit report","2026-09-20"
+1,1,系安全带，前排后排都系,A,已核验可信,官方事故数据/效果估计,verified,match,moderate,partial,2026-09-20
+1,2,骑摩托车、电动自行车戴头盔并扣好,A,基本可信但需限定,系统综述-观察性研究,verified,match,moderate,partial,2026-09-20
+1,7,量血压，高了就吃药降到达标,A,基本可信但标题过度简化,RCT系统综述/meta,verified,match,high,partial,2026-09-20
+1,8,35岁以后超重查血糖,A,基本可信但人群范围写宽,USPSTF指南,verified,mostly_match,guideline,partial,2026-09-20
+1,10,4岁以下儿童用安全座椅,A,已核验可信,官方事故数据/效果估计,verified,match,moderate,good,2026-09-20
+1,12,儿童近水不离视线，划船野泳穿救生衣,A,基本可信但证据被拼接,匹配队列,verified,match,low-moderate,partial,2026-09-20
+1,13,60岁以上练平衡和腿部力量,A,已核验可信,Cochrane RCT系统综述,verified,match,high,good,2026-09-20
+1,16,女性接种HPV疫苗，越早越好,A,基本可信但癌症终点来自队列,全国登记队列,verified,match,moderate,good,2026-09-20
+1,17,40-74岁女性每两年乳腺钼靶,A,已核验可信,USPSTF指南,verified,match,guideline,good,2026-09-20
+1,18,30岁以上女性宫颈癌筛查优先HPV,A,基本可信但方案需按本地指南,整群RCT,verified,match,high,partial,2026-09-20
+1,19,45-50岁起结直肠癌筛查 FIT 或肠镜,A,基本可信但证据映射不严谨,RCT+旧FOBT综述,verified,partial,mixed,partial,2026-09-20
+1,20,心血管病人和老年人每年打流感疫苗,A,基本可信但外推健康老人较弱,随机双盲RCT+meta,verified,match,high for post-MI,partial,2026-09-20
+1,21,50岁以后打带状疱疹疫苗,A,已核验可信,三期RCT,verified,match,high,good,2026-09-20
+1,22,65岁以上打肺炎球菌疫苗,A,基本可信但疫苗产品不可互换,随机双盲RCT,verified,match,high for PCV13,partial,2026-09-20
+1,23,查幽门螺杆菌，阳性就根除,A,基本可信但绝对收益受地区风险影响,随机干预长期随访,verified,match,high,partial,2026-09-20
+1,24,重度吸烟者每年低剂量CT,A,基本可信但高危定义需现行指南,RCT,verified,match,high,partial,2026-09-20
+1,28,性行为全程安全套，不共用针具,A,基本可信但多结论需分别取证,系统综述/meta-观察性,verified,match for HIV condoms,moderate,partial,2026-09-20
+1,29,高危行为后检测，免费保密,A,基本可信但需动态政策核验,法规+前瞻队列,verified,partial,mixed,partial,2026-09-20
+1,3,烟雾报警器/一氧化碳报警器,B,基本可信但效应来源有限,病例比较+官方统计,verified,match for smoke detector,low-moderate,partial,2026-09-20
+1,4,燃气软管和灶具到期就换,A,已核验可信,法规,verified,match,legal,good,2026-09-20
+1,5,不采不买不吃野生蘑菇,A,已核验可信-统计事实,官方监测报告,verified,match,descriptive,good,2026-09-20
+1,6,电动自行车不推进楼道不在家充电,A,基本可信但标题比法条更宽,部门规章,verified,partial,legal,partial,2026-09-20
+1,9,开车不超速不酒驾,B,已核验可信,WHO风险资料,verified,match,moderate,good,2026-09-20
+1,11,儿童窗户护栏/限位器,B,基本可信但多措施混合,公共卫生项目观察,verified,match,low-moderate,partial,2026-09-20
+1,14,查乙肝状态未免疫者补种,A,基本可信但成人外推过度,整群随机试验,verified,match neonatal,high neonatal,partial,2026-09-20
+1,15,污染或深伤口评估破伤风,B,已核验可信,CDC指南/监测,verified,match,guideline,good,2026-09-20
+1,25,自杀念头时求助并限制致命手段,B,基本可信但多研究拼接,系统综述+生态研究,verified,partial,moderate population,partial,2026-09-20
+1,26,家庭备应急装备,B,基本可信但装备效应不可单独归因,Cochrane综述,verified,partial,mixed,partial,2026-09-20
+1,27,肉眼血尿需评估,B,基本可信但PPV不可直接泛化,病例对照/电子病历,verified,partial,diagnostic association,partial,2026-09-20
+1,30,自杀念头出现尽快告诉身边人,B,基本可信但样本小,单中心回顾访谈,verified,match,low,partial,2026-09-20
+1,33,不要卖肾/切肾换钱,A,基本可信但正规捐献不能直接量化黑市,大型队列,verified,match for donors,moderate,partial,2026-09-20
+1,34,不拆来路不明放射源部件,A,已核验可信,官方监管数据+事故报告,verified,match,descriptive/legal,good,2026-09-20
+1,31,中毒救回来也可能留后遗症,B,基本可信但多研究拼接,毒理综述+RCT,verified,match for cited outcomes,mixed,partial,2026-09-20
+1,32,高处坠落存活仍可能重伤,B,基本可信但人群外推明显,单中心回顾队列,verified,match,low-moderate,partial,2026-09-20
+2,1,戒烟，越早越好,A,已核验可信,see audit report,verified,match,see audit report,see audit report,2026-09-20
+2,2,别在家里和车里抽烟,A,核心结论可信,see audit report,verified,match,see audit report,see audit report,2026-09-20
+2,3,不喝含糖饮料,A,基本可信但因果表述应收敛,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+2,4,不嚼槟榔,A,核心建议可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+2,5,把食盐换成低钠盐,A,RCT 很强，但人群需限定,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+2,6,认真刷牙、清牙缝、缺牙及时补,B,证据不足以支持“降低死亡”行动处方,see audit report,limited,partial,see audit report,see audit report,2026-09-20
+2,7,每天走到 7000–8000 步,A,数字可信、因果不足,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+2,8,高血压、高血脂按医嘱吃药,A,核心治疗证据可信,see audit report,verified,match,see audit report,see audit report,2026-09-20
+2,9,每晚睡 7 小时左右、作息固定,A,基本可信但多为观察关联,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+2,10,每周 150–300 分钟中等强度运动,A,行动方向可信，死亡率幅度为观察性,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+2,11,每周打三次球拍类运动，每次 45 分钟,A,标题比证据更具体,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+2,12,每天攒四五分钟零碎剧烈活动,A,研究真实但为观察性,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+2,13,每周做 30–60 分钟力量训练,A,关联可信，剂量峰值不宜当硬阈值,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+2,14,别连着坐太久,A,基本可信但 2.63 倍明显受反向因果影响,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+2,15,少吃加工肉,A,基本可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+2,16,少喝或不喝酒,A,总体方向可信、精确阈值仍有争议,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+2,17,每天吃一小把坚果,A,观察关联，不是坚果 RCT 的死亡效应,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+2,18,把一部分红肉换成鱼和禽肉,A,所引研究没有真正做“替换试验”,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+2,19,精米白面换一部分全谷物,A,基本可信但死亡率数字为观察性,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+2,20,每周喝三次以上茶,A,具体频率处方证据不足,see audit report,limited,partial,see audit report,see audit report,2026-09-20
+2,21,每天喝三到四杯咖啡,A,伞形综述真实，但作者明确提醒因果不足,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+2,22,每天吃够约 400 g 水果蔬菜,A,行动方向合理、剂量死亡率为观察关联,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+2,23,少吃超加工食品,A,关联证据广泛，但总体 GRADE 多为低至中等,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+2,24,不喝甜味饮料，无糖的也算,A,对“无糖饮料也应不喝”的因果证据不足,see audit report,limited,partial,see audit report,see audit report,2026-09-20
+2,25,做饭取暖不烧煤和柴,A,核心方向可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+2,26,不喝滚烫饮料,A,核心建议可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+2,27,白天出门晒太阳，别整天不见光,B,瑞典 cohort 不足以支持普遍“晒太阳延寿”,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+2,28,BMI 控制在 20–25，超重就减,A,关联较稳定，但“减重=获得同等死亡收益”不成立,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+2,29,每周吃四次以上辣椒,B,证据不足以形成建议,see audit report,limited,partial,see audit report,see audit report,2026-09-20
+2,30,每天喝一两份奶或酸奶,B,主要来自 PURE cohort,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+2,31,鸡蛋不用戒，但别每天三四个,B,结论方向谨慎但证据冲突,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+2,32,有条件就泡澡,B,不足以作为延寿建议,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+3,1,关掉非必要通知，手机放视线之外,B,小实验支持短时认知影响,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+3,2,固定起床时间，周末也一样,B,证据较弱,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+3,3,每晚睡够 7–8 小时，别把 6 小时当够用,A,核心实验可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+3,4,下午两点以后不碰咖啡因,A,咖啡因影响睡眠可信，但“下午两点”不是统一阈值,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+3,5,邮件/消息每天固定几次批量处理,B,有小型交叉研究支持压力下降,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+3,6,深度工作时挡住哪怕几秒的打断,B,实验支持错误和压力上升,see audit report,verified_contradicted,partial,see audit report,see audit report,2026-09-20
+3,7,一次只做一件事,B,任务切换成本可信，媒体多任务因果不足,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+3,8,睡前一小时不看发光屏幕,B,发光电子书实验可信，时间阈值外推,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+3,9,不为游戏、短视频、色情内容熬夜,B,“别挤占睡眠”可信，内容类型不是证据重点,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+3,10,深夜不做重大决定、不发要紧消息,B,外推明显,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+3,11,下午困了睡 10 分钟，不要睡半小时,B,单一实验支持 10 分钟短睡优势,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+3,12,开放式办公室用耳塞/找安静房,B,噪音损害实验支持，但“耳塞”未直接测试,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+3,13,每周工作不要超过 49 小时,B,“49 小时”不应作为现代知识工作的硬阈值,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+3,14,反复回想糟心事时换个需要动手的活,B,反刍有害可信，“换个动手活”是作者推论,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+3,15,把“事情肯定会更糟”当症状看,B,悲观与死亡关联不等于纠正想法能延寿,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+3,16,减少让你消耗的人际关系,C,只能视为经验建议,see audit report,limited,partial,see audit report,see audit report,2026-09-20
+3,17,固定低价值决策,C,节省时间合理，但“决策疲劳资源耗竭”理论已被大型复制削弱,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+3,18,生气时先离场、换角度解释,B,情绪调节证据支持方向,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+3,19,情绪低落先运动、晒光、睡好、找人说,A,多个有效干预被混成一个标题,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+3,20,和机构打交道靠文书和期限，不靠情绪,C,规则部分可核验，心理结论属经验,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+3,21,给刷同龄人动态的应用设限或关掉,A,RCT 支持部分因果，但平台/场景外推,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+3,22,觉得所有人看到你出丑时，把估计除以二,B,现象可信，“除以二”不是通用算法,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+3,23,把“别人要求我完美”当症状看,B,相关可信，不能当诊断法,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+4,1,把“打算做”写成“几点、在哪、遇到什么就做什么”,A,核心结论可信,see audit report,verified,match,see audit report,see audit report,2026-09-20
+4,2,开工前写下退出条件,B,概念有依据，但“退出条件”不是该 meta 的直接标准化干预,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+4,3,继续与否只看未来投入和回报,B,沉没成本效应存在,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+4,4,估工期按过去同类任务实际耗时,B,规划谬误可靠，具体数字来自小样本,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+4,5,会前发议程；能站着开就站着开,B,两部分证据强度不同,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+4,6,砍会议数量，能异步就不开会,B,前半有疲劳关联，后半缺直接比较,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+4,7,大任务拆成子任务再估时、开工,B,拆分有助估时，减拖延部分是间接证据,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+4,8,没外部截止就自己定日期,B,原研究验证的是外部截止，不是自设截止,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+4,9,用自己的时薪决定家务外包,B,“买时间更幸福”有实验支持，时薪算法是作者决策规则,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+4,10,给短视频和无目的刷屏设硬上限,C,统计可核验，行动建议缺直接证据,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+4,11,不看电视和滚动新闻，定时集中看,C,总量统计真实，建议属经验,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+4,12,花一次时间学常用软件的快捷键和自动化,B,方向可信，但效应证据较弱,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+4,13,选住处时把通勤时长放在前面,B,通勤满意度下降较稳定，但整体生活满意度证据不一致,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+5,1,关掉所有自动续费，改手动续,C,经验建议,see audit report,limited,partial,see audit report,see audit report,2026-09-20
+5,2,每年3–6月做个税汇算,A,现行政策已核验,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+5,3,公积金可用于租房、装修、物业费,A,2026新规已核验,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+5,4,每年重算手机宽带套餐,A,核心维权规则可信，标题外推,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+5,5,不买彩票,A,数学期望方向可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+5,6,“高收益/保本/稳赚”直接走开,A,风险识别方向可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+5,7,不用信用卡最低还款、不为消费分期,C,成本风险真实，结论过于绝对,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+5,8,不给主播打赏、不游戏充值、不冲动下单,B,没有直接效果证据,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+5,9,未成年人不相称的大额充值可主张退,A,法律依据可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+5,10,孩子被要求拿家长手机/验证码操作就当诈骗,B,高价值反诈启发式,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+5,11,拒绝电子产品延保,B,旧美国零售数据外推明显,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+5,12,优先选过一致性评价和集采中选药,A,总体可信，但不能脱离医生和具体药物,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+5,13,办医保家庭共济,A,已核验且2026范围更宽,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+5,14,喝烧开的自来水，不长期买瓶装水,C,多数地区可行但高度依赖当地水质/管网,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+5,15,不频繁交易股票,A,核心证据可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+5,16,不借钱投资、不加杠杆、不买看不懂的,B,风险管理原则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+5,17,宽基指数基金作为长期底仓,B,有充分金融学依据，但不是人人唯一正确,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+5,18,同类基金优先低费率,C,算术上成立,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+5,19,不把钱押在单一股票/平台/房产,B,分散化原则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+5,20,交个税的人开个人养老金账户，每年12000元税前扣除,A,税收政策可信，“不交个税就不划算”过度,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+5,21,健身房按次/短周期付费,B,风险控制合理但非研究定律,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+5,22,预付款签书面合同；商家风险时要求退余额,A,现行司法解释更强支持,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+5,23,大额购买设24小时冷静期，网购用七日无理由,C,七日退货有法定依据，24小时是经验规则,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+5,24,不为划线价和大促囤货,C,行为经济学方向合理,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+5,25,保险优先消费型，把返还分红视为不保证,C,“分红不保证”可信，产品选择不能一刀切,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+5,26,三者险买够,A,交强险限额固定，商业三者额度需个体化,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+5,27,存3–6个月生活费应急金,C,常见财务规划经验值,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+5,28,提前还房贷先比较利率和替代收益,C,决策框架正确,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+5,29,网购认平台规则和法条，不认主播好评,A,核心方向可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+5,30,直播间出问题向平台索要卖家和带货人信息,A,2026新规已核验,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+5,31,不安全食品可主张十倍价款，最低1000元,A,条件成立时正确,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+5,32,买大件查抽检、3C、能效标识,B,实用但适用范围不同,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+5,33,手串玉石名表潮玩按消费而非存款算,A,风险提示合理，原A过高,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+5,34,珠宝玉石只认CMA检测报告,A,2026后已过时/表述错误,see audit report,verified_contradicted,partial,see audit report,see audit report,2026-09-20
+5,35,盲盒抽卡按钱不会回来算,A,作为预算规则合理，A级证据不成立,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+6,1,不要为了长寿/防心血管病吃复合维生素,A,对“延寿/防CVD”基本可信，但不能说所有多维都没价值,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+6,2,不要为预防心血管病吃普通鱼油,A,对一般人群一级预防基本可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+6,3,不缺维生素D的人别为长寿补D,A,核心结论可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+6,4,不要为防癌吃β胡萝卜素/维E/维A,A,证据较强,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+6,5,不要指望氨糖/软骨素治膝关节炎,A,总体效果有限，但“完全无效”过强,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+6,6,不要靠维C预防感冒,A,一般人群可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+6,7,无症状别做全身PET-CT/肿瘤标志物套餐,A,核心方向可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+6,8,不要指望手环/手表量化运动帮你减重,B,设备不是“减重药”，但可作为行为工具,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+6,9,不要为“更健康”花溢价买有机食品,B,健康优势证据有限，价值判断因人而异,see audit report,limited,partial,see audit report,see audit report,2026-09-20
+6,10,不要花大钱买保健品/膏方/滋补品“调理”,C,过度概括,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+6,11,没肠道问题不要长期吃益生菌,B,基本合理但需菌株/人群特异,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+6,12,不要为增强免疫力逼自己洗冷水澡,B,“增强免疫”证据弱,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+6,13,不要买排毒、清肠、酵素、碱性水,C,核心科学判断可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+6,14,不必强迫自己每天8杯水,C,基本可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+6,15,不要用算命塔罗星座做决定,B,作为预测工具缺乏可靠验证,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+6,16,不要买防蓝光眼镜“保护视力”,A,已核验可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+6,17,不要把献血当保健,A,核心结论可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+6,18,不要靠通用体检套餐防病,A,已核验可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+6,19,无症状高尿酸不要自动开始降尿酸药,A,按主流指南基本可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+6,20,无症状胆囊结石别预防性切胆囊,A,一般人群基本可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+6,21,防肾结石不要把钙戒掉,A,核心结论可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+6,22,不要为转运招财买水晶貔貅,B,对“超自然功效”无可信证据,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+6,23,不要指望买东西改善心情/身份感,B,表述过强,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+6,24,不要为在周围人里往上挪一档多花钱换房换车换圈子,B,社会比较效应存在，但属于价值选择,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+7,1,失业先申领失业保险金,A,核心方向可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+7,2,欠薪先劳动监察，再劳动仲裁,A,核心路径可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+7,3,打不起官司就申请法律援助,A,已核验,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+7,4,走投无路去救助站,A,基本可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+7,5,急危重症先救治，没钱也拨120,A,核心原则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+7,6,找活先用免费公共就业服务,A,基本可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+7,7,突发变故先申请临时救助,B,核心方向可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+7,8,收入低于低保线就申请低保,A,仅收入低于线并非唯一条件,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+7,9,持残疾人证申请残疾人两项补贴,A,需符合补贴类别条件,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+7,10,居民医保每年400元不要断,A,2026很多地区是400元，但不是全国统一,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+7,11,重病先走医保、大病保险、医疗救助和异地备案,A,路径可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+7,12,身份证丢了立即补办，急用办临时证,A,核心可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+7,13,办失业登记后争取就业困难人员认定,B,方向可信但资格地方化,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+7,14,失业期间领培训/见习/社保补贴,A,可用政策真实，不是所有失业者都同时符合,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+7,15,求职用系统方法：学技巧、定目标、找人帮,A,干预证据支持但不保证找到工作,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+7,16,不交押金、不押证件、不签培训贷、不进传销、不借高利贷,A,多数是明确风险红线,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+7,17,住房困难先排公租房,B,可能很有用，但资格高度地方化,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+7,18,把住和吃压到最低：合租、自炊,B,经验建议,see audit report,limited,partial,see audit report,see audit report,2026-09-20
+7,19,社保断缴不要慌：养老按累计，医保按规则补,A,核心方向可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+7,20,坐过牢、破过产、失信都有重来路径,A,方向可信但过于概括,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+7,21,医保外配一年期医疗险或重疾险,B,保险配置属于个体决策,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+7,22,实在没地方睡优先救助站,C,安全建议合理,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+8,1,交通事故先停车、救人、报警，不要跑,A,核心法律义务可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+8,2,发现被骗立刻110/96110要求止付,A,高价值应急动作,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+8,3,反诈硬规则：不轻信、不透露、不点链接、转账多核实,B,作为通用启发式可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+8,4,视频见脸、电话听声都不算核实，转账前用旧号码回拨,B,2026仍高度适用,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+8,5,被指控/传唤先请律师，不私了、不删记录,A,“请律师/保留证据”合理，“一律不私了”过强,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+8,6,喝酒后不碰方向盘，包括“挪一下”,A,核心法律风险可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+8,7,不把银行卡、手机卡、支付账号借人，“跑分”不是兼职,A,高风险法律提醒可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+8,8,每年免费查两次征信报告,A,已核验,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+8,9,冲突先报警不动手,A,风险控制方向对，但“先动手几乎一定吃亏”不是法律规则,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+8,10,躲不掉的侵害可还手，对方停你就停,A,核心正当防卫原则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+8,11,欠薪/被开除/被骗走投诉仲裁起诉，不去报复,A,法律路径可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+8,12,不对无关人下手，驾车冲撞人群等可能构成危害公共安全罪,A,核心刑法结论可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+8,13,出现“同归于尽/拉垫背”念头按急症处理,B,安全处置合理，证据主要来自自杀危机研究,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+8,14,身边人明确威胁伤己伤人，不要只当气话,A,法律依据明确,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+8,15,网上不造谣侮辱；被网暴先留证,A,核心法律风险可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+8,16,签字前把纸看完，不替人签、不签空白纸,A,实用风险控制，部分是经验规则,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+8,17,借钱写借条；担保前想清楚是否愿意替他还,A,核心法律区分可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+8,18,维权有期限：民事诉讼时效 3 年，劳动仲裁 1 年，过了对方一句「超过时效」就够,A,基本可信但时效表述过强,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+8,19,被起诉、被执行了，如实报财产、能还多少还多少，别把房和钱转给亲友或公司,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+8,20,被限制消费或者被列入失信名单，先查清是按哪一条纳入的，能纠正的申请纠正,A,部分待核实,see audit report,partial,partial,see audit report,see audit report,2026-09-20
+8,21,网购、二手交易被骗，先平台投诉，再报警，再算值不值得起诉,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+8,22,恋爱和婚内的大额赠与，交付之前想清楚，交付之后原则上要不回,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+8,23,彩礼走转账并备注，聊天记录留好；借婚姻要钱可以要回,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+8,24,婚前财产不用怕，房子加名和父母出资先写清楚,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+8,25,结婚前核对对方婚姻状况，以结婚为幌子骗钱的按诈骗罪追究,A,部分待核实,see audit report,partial,partial,see audit report,see audit report,2026-09-20
+8,26,上门维修、验车、装修，先问价再动手，全程在旁边看着,B,部分待核实,see audit report,partial,partial,see audit report,see audit report,2026-09-20
+8,27,别当「挂名法人」，别把身份证借给人注册公司,B,部分待核实,see audit report,partial,partial,see audit report,see audit report,2026-09-20
+8,28,出入境不帮陌生人带东西，不代收来路不明的包裹,B,官方规则支持,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+8,29,养狗必须牵绳：不牵绳出了事是无过错责任（你有没有错都要赔），赔到底,A,核心责任规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+8,30,对方喝到意识不清、睡着，或者可能不满 14 岁，就不要发生关系,B,官方规则支持,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+8,31,对方拿报警、发照片、告诉你单位来要钱，一分钱不给，直接报警,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+8,32,被人捏造事实举报，可以要求追究：够治安处罚的拘留 5 日起，够罪的判 3 年以下,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+8,33,证据不足本来就应当判无罪，逼出来的口供应当排除；判了还有申诉和再审,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+8,34,被羁押后撤案、不起诉或者判无罪的，去申请国家赔偿，按天算钱,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+8,35,自己是受害人去索赔，走 12315、起诉或者律师，别单独赴对方的约，别把「给钱」和「我不曝光」绑成一句话,B,官方规则支持,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+8,36,被网暴了：先开防护、先固证，再在平台、禁令、报警三条路里挑,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+8,37,「先给人买保险再动手」这条路法律上从头堵死：钱一分拿不到，罪按故意杀人加保险诈骗数罪并罚,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+8,38,报警当场要受案回执，不立案要书面通知：7 日内可申请复议，再 7 日可申请复核，检察院能通知公安立案,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+8,39,别给办案、执法的人送钱送卡：行贿自己也判，对监察、执法、司法人员行贿还要从重,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+9,1,群里不转发不知真假的灾情、疫情、警情消息，不 P 图、不用 AI 造现场图,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+9,2,不发、不转侮辱英烈的图片、表情包和评论，不拿国旗国歌开玩笑,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+9,3,境外网站上的东西看完就关，不截图、不转发、不搬进群里，也不在评论区跟着说,A,表述过度,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+9,4,黄色视频自己看归自己，别往群里发、别卖「资源」、别建群,A,部分待核实,see audit report,partial,partial,see audit report,see audit report,2026-09-20
+9,5,「兼职」要你用自己的卡收钱、取现、转账，不管给多少好处费都不做,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+9,6,有人拉你去「包装材料」贷款、按贷款额分你好处费，一个都不做,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+9,7,捡到银行卡不取钱，捡到手机、钱包联系失主或交给警察，不揣走,A,部分待核实,see audit report,partial,partial,see audit report,see audit report,2026-09-20
+9,8,优惠用自己的真实身份领，不买虚拟号批量注册小号，不靠漏洞重复领,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+9,9,阳台、窗户不往外扔任何东西，烟头、垃圾袋、酒瓶都算,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+9,10,不网购仿真枪、钢珠枪、气枪，不买来路不明的「玩具枪」,A,部分待核实,see audit report,partial,partial,see audit report,see audit report,2026-09-20
+9,11,买了无人机先实名登记，机场、军事区和城市管制空域不飞，不破解限高,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+9,12,不偷拍别人，不在出租屋、民宿、酒店房间装摄像头,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+9,13,麻将、扑克可以打，不抽头、不当庄、不组局收钱，不玩网络赌博,B,需按地方规则判断,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+9,14,不吃野味，不买卖、不养保护动物当宠物,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+9,15,要债不扣人、不关人、不跟到家里赖着不让走,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+9,16,身份证不借人，不用别人的身份证，也不拿别人的证件登记、开卡、买票,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+9,17,被警察拦下或带走时配合，不推、不打、不抢执法记录仪，喝了酒更要忍,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+9,18,对方不满 14 岁就不能发生关系，「她同意」不是理由,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+9,19,动手打人前算清这笔账：拘留、赔钱、判刑,A,部分待核实,see audit report,partial,partial,see audit report,see audit report,2026-09-20
+9,20,孩子生下来养不了，只有民政登记这一条合法出路：收钱把孩子给人可能按拐卖罪判，扔下不管是遗弃罪,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+9,21,别伪造事故、别夸大损失骗理赔：这是保险诈骗罪，帮你作证、帮你修车、帮你鉴定的人一起算,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+9,22,不卖自己的器官，也别帮人找供体：肾到手 2 万多，同一枚转手卖 20 万，钱要被没收还要按交易额罚 10 到 20 倍,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+10,1,认识更多人，而不是死磕一个：两个人合不合得来，见面之前预测不出来,A,研究方向可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+10,2,对方明确拒绝之后就停下，继续纠缠是治安违法，不是「诚意」,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+10,3,判断对方有没有兴趣，看行为不看「信号」：谁主动、谁安排、谁跟进,B,基本可信但需限定,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+10,4,关系好不好，主要看你自己在这段关系里的感受，不是看对方条件,A,有研究依据,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+10,5,想拉近距离就轮流回答一组由浅入深的问题，别学话术,B,有限证据支持,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+10,6,异地不比同城差，真正的坎是搬到一起之后的头三个月,B,有限证据支持,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+10,7,先看登记数据再听长辈：结婚率、离婚率各是什么口径,A,数据口径提示可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+10,8,把健康收益算进去，但按观察性数据打折,A,基本可信但需限定,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+10,9,时间账按「无酬劳动」算，谈清分工再领证,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+10,10,钱账先看法律默认规则，再决定要不要书面约定,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+10,11,父母出资买房，在转账的时候就把是借是送写清楚,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+10,12,配偶一方大额借的钱，你没签字也没追认，不自动变成你的债,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+10,13,领证只要身份证加一份签字声明，不用户口簿，不收钱，当场发证,A,现行登记便利化方向可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+10,14,婚前做一次婚检，有重大疾病必须在登记前如实告诉对方,B,部分待核实,see audit report,partial,partial,see audit report,see audit report,2026-09-20
+10,15,情绪价值别只问「有没有」，要看关系质量,B,基本可信但需限定,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+10,16,算退出成本：协议离婚有 30 天冷静期，诉讼离婚有法定条件,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+10,17,给「为长辈结婚」单独记一笔账，别和自己的账混在一起,C,经验建议,see audit report,limited,partial,see audit report,see audit report,2026-09-20
+11,1,动手前先问三句：损害了谁的利益、对方多有能力追究、我留了多少证据；被追究后马上找刑事律师,C,经验建议,see audit report,limited,partial,see audit report,see audit report,2026-09-20
+11,2,不做、不卖游戏外挂和辅助，包括「只读屏幕不碰内存」的 AI 辅助,A,高法律风险，标题略绝对,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+11,3,不写、不卖抢票、秒杀、刷单、薅羊毛脚本，哪怕只是「自动化点按钮」,A,高风险但不能一概定罪,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+11,4,爬虫只爬无需登录的公开页面，不绕反爬、不碰个人信息，爬到的数据不卖,A,规则应更细,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+11,5,不接赌博、诈骗、色情 App 的开发单，不替「客户」搭支付通道、解封账号,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+11,6,离职时交清账号权限，不删库、不留后门、不改密码锁系统，哪怕公司欠你钱,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+11,7,离职不带走源码、客户名单和技术文档，不上传个人网盘，不在下家复用,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+11,8,不在别人的电脑、服务器、摄像头上跑自己的程序，公司机器不拿来挖矿,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+11,9,没有书面授权不测别人的系统，「出于好意」和「事后上报」都不是出罪理由,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+11,10,漏洞按规定报送，修补前不公开细节、不发利用工具、不交给境外,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+11,11,不卖翻墙工具、VPN 账号，不替人搭这类节点,B,法律边界复杂,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+11,12,签了竞业协议，离职后公司不按月给补偿就书面催告，满 3 个月没给可以解除；没接触过商业秘密的岗位可请求确认条款不生效,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+11,13,上班时间、用公司资源写的代码归公司，自己的开源项目用自己的时间和设备做，不混公司代码,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+11,14,用 GPL 等开源代码做产品，按许可证要求开源或换许可证，不当「没人管」,B,官方规则支持,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+11,15,做 App 只收业务必需的个人信息，14 岁以下要监护人同意，隐私政策写清楚,B,官方规则支持,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+11,16,网站、App 上线前先做 ICP 备案，按等级保护要求留 6 个月以上日志,A,需区分备案与等保义务,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+11,17,对公众提供生成式 AI 服务前先按规定做安全评估和算法备案，生成内容加标识,B,动态监管项,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+12,1,只拿亏得起的钱创业，不动家底、不借钱开张,B,官方规则支持,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+12,2,不给公司贷款签个人担保，配偶更不要跟着签,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+12,3,开张前选对主体：个体户和合伙人赔到底，有限公司才「有限」,A,核心法律结构可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+12,4,不当挂名股东，不替人代持股权,B,部分待核实,see audit report,partial,partial,see audit report,see audit report,2026-09-20
+12,5,加盟前先查商务部备案，拿到书面披露，把「冷静期」写进合同,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+12,6,注册前把名称、经营场所、经营范围和注册资本定下来，材料齐了当场就能领执照,A,“材料齐当场领照”过度,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+12,7,要许可证的行当，证没下来不开张,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+12,8,做食品先看自己落在哪一档：生产和做餐饮要许可，只卖预包装的改备案，卖生鲜肉菜不用证,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+12,9,装袋卖就是预包装食品：标签上生产日期、保质期、配料表一样都不能少,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+12,10,普通食品不许说能治病：标签、说明书、广告和直播话术都算,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+12,11,食品这一行有刑事线：卖病死肉、超标货就够罪，掺了有毒有害的不看金额、起刑五年,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+12,12,领了执照就开始有申报义务，没有收入也要按期零申报（照报一张全是零的表）,A,申报义务可信但“零申报”需按税种,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+12,13,发票只按真实交易开，小规模纳税人用足免税额,A,小规模免税标准动态,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+12,14,自称税务局催你交钱报税的都是骗子，办税只走电子税务局和 12366,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+12,15,收钱写「定金」不写「订金」，违约金写明数，账期当放贷来审,A,部分待核实,see audit report,partial,partial,see audit report,see audit report,2026-09-20
+12,16,用人第一个月内签书面合同，30 日内办社保登记,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+12,17,工资按合同和法律给，加薪、借款、奖金都走书面,C,经验建议,see audit report,limited,partial,see audit report,see audit report,2026-09-20
+12,18,先卖再造：用预售和小订单验证有人买，再投钱生产,B,部分待核实,see audit report,partial,partial,see audit report,see audit report,2026-09-20
+12,19,样品做出来先过一遍量产清单，再谈开工,C,经验建议,see audit report,limited,partial,see audit report,see audit report,2026-09-20
+12,20,进货一批留一批票据和上家信息，进货价明显低于市场价的不进：员工进的假货，老板是被判的那个,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+12,21,商品、包装、吊牌和宣传图上的图案要么自己做要么买授权，改个颜色、加个图标不算「改过了」,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+12,22,在岗位上按规程办事，规程之外的好意先想清楚责任归谁,B,部分待核实,see audit report,partial,partial,see audit report,see audit report,2026-09-20
+12,23,亏了就按程序退场：能简易注销就注销，资不抵债走破产，别放着不管,A,部分待核实,see audit report,partial,partial,see audit report,see audit report,2026-09-20
+13,1,有人倒地没呼吸，立刻用力按压胸口，让旁人打 120 并找 AED,A,强证据急救建议,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+13,2,老人摔倒、有人倒地，先蹲下喊他、打 120，别急着把人扶起来；陌生人这档走开也合法，停下来就别上手搬,B,“别扶”不是绝对规则,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+13,3,突然嘴歪、一侧胳膊没劲、说话说不清，立刻打 120，不要等、不要自己开车去,A,✅/🟡 研究支持核心方向,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+13,4,突然天旋地转站不稳、看东西成双、一只眼发黑，或者手指点不到自己鼻尖，也按卒中打 120,B,有限证据支持,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+13,5,一只眼睛突然像拉下窗帘一样黑掉，哪怕几分钟就自己好了，也当天按卒中去急诊,B,有限证据支持,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+13,6,胸口压着疼、闷、发紧超过 15 分钟不缓解，打 120，不要自己扛也不要自己开车,B,有限证据支持,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+13,7,突然像被撕开一样的剧痛，从胸口往后背、往腰一路挪，打 120 并说清「疼在移动」,B,有限证据支持,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+13,8,突然一记「这辈子最疼的头痛」，一小时内就到最疼，立刻去急诊做头颅 CT,A,高风险症状警示可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+13,9,老人磕过头之后两三周到几个月变得走路不稳、迟钝、嗜睡或者一侧没劲，去做头颅 CT,B,有限证据支持,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+13,10,一条腿突然肿起来、发紧、按着疼，尽快就医；再加上突然喘不上气或者胸痛，立刻打 120,B,有限证据支持,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+13,11,大出血先用手死死压住伤口，四肢压不住就上止血带，同时打 120,A,核心止血原则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+13,12,被狗、猫咬伤或抓破皮，先用肥皂水和流水交替冲 15 分钟，当天去打疫苗,A,狂犬病暴露处置可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+13,13,烫伤后立刻用凉的流动水冲 20 分钟，别抹牙膏酱油,A,✅/🟡 研究支持核心方向,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+13,14,突然全身起疹、喘不上气或者发晕，按过敏性休克处理，立刻叫 120 并说清楚,B,有限证据支持,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+13,15,有人抽搐倒地，清开周围、让他侧躺、看表计时，什么都别往嘴里塞,B,官方规则支持,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+13,16,糖尿病人突然发抖、出冷汗、说话不清，先给 15 克糖，15 分钟后复测,A,低血糖15-15规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+13,17,有人触电，先断电，再用干燥的木棍之类挑开电源，不要直接上手拉,C,原标题有安全隐患,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+13,18,一氧化碳报警器响了，或者一屋子人同时头痛恶心，先出门再打电话,B,部分待核实,see audit report,partial,partial,see audit report,see audit report,2026-09-20
+13,19,误服清洁剂、农药、药物先别催吐，带上瓶子立刻就医；溅到眼睛或皮肤用大量清水冲 15 分钟,B,证据映射不足,see audit report,limited,partial,see audit report,see audit report,2026-09-20
+13,20,酸碱等化学品溅到身上，立刻脱掉污染的衣服、用大量流动清水冲，眼睛要掰开眼皮冲，冲够时间再走,B,官方规则支持,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+13,21,记住七种最常见的网络骗局，凡是让你先转钱、先交费、共享屏幕的直接挂,B,部分待核实,see audit report,partial,partial,see audit report,see audit report,2026-09-20
+13,22,被人用隐私照片、视频威胁，一分钱不给、一条记录不删，立刻报警,B,部分待核实,see audit report,partial,partial,see audit report,see audit report,2026-09-20
+13,23,高温下头晕、恶心、不出汗或意识不清，立刻挪到阴凉处脱衣泼水降温，意识不清的不喂水、打 120,B,部分待核实,see audit report,partial,partial,see audit report,see audit report,2026-09-20
+13,24,中暑的人只要清醒，就少量多次喝凉的淡盐水或运动饮料，别猛灌、别喝酒和高糖饮料,B,官方规则支持,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+13,25,火灾时贴地爬、摸门再开门、门烫就别开，走楼梯不坐电梯，出去了别回头,B,部分传统火灾话术需更新,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+13,26,看到有人溺水，先叫人和打 110/120，伸竿、抛漂浮物，自己不下水,C,经验建议,see audit report,limited,partial,see audit report,see audit report,2026-09-20
+13,27,有人噎住说不出话，站到背后做 5 次拍背加 5 次腹部冲击，倒下就做心肺复苏,B,部分待核实,see audit report,partial,partial,see audit report,see audit report,2026-09-20
+13,28,在戈壁、沙漠、无人区迷路或车坏了，留在原地或车旁，先报位置，再遮阳保温，省水，不乱走,C,部分待核实,see audit report,partial,partial,see audit report,see audit report,2026-09-20
+13,29,发抖、说话含糊、走路打晃是失温，换掉湿衣、包起来，先暖躯干，喝热甜饮不喝酒,B,有限证据支持,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+13,30,被蛇咬，坐下别动、摘掉戒指手表、尽快送医院打抗蛇毒血清，不切、不吸、不绑死,B,部分待核实,see audit report,partial,partial,see audit report,see audit report,2026-09-20
+13,31,地震时先看自己在什么房子里：符合抗震设防的楼里就地躲，会垮的老房子门在几步外就出去,B,地震规则不能简化成“老房门近就跑”,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+13,32,遇到熊、野猪、成群野狗，别跑、别尖叫、别对视，侧身慢慢退开,B,动物应对过度一概而论,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+13,33,野外遇上雷雨，钻进有硬顶的车或建筑，避开山脊、孤树、水面和金属,B,证据映射不足,see audit report,limited,partial,see audit report,see audit report,2026-09-20
+13,34,上高原按睡眠海拔（当晚睡在多高）慢慢升，症状加重就下撤，不要硬扛,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+13,35,被蜱虫叮住，用尖头镊子贴着皮肤稳稳拉出来，别涂油别用火烧,B,部分待核实,see audit report,partial,partial,see audit report,see audit report,2026-09-20
+13,36,野外的水一律烧开再喝，滚开一分钟就够，不用因为海拔高多煮,B,高海拔煮水表述错误,see audit report,verified_contradicted,partial,see audit report,see audit report,2026-09-20
+13,37,荒郊野外被陌生人索财，钱给他，不动手，记特征，脱身后报警,C,经验建议,see audit report,limited,partial,see audit report,see audit report,2026-09-20
+13,38,撞见一群人打架，退开走人，别上去拉架、别围观、别捡地上的家伙；要报警就退到安全距离打 110,B,官方规则支持,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+13,39,可能被 HIV 暴露了，72 小时内去拿阻断药，越早越好,B,官方规则支持,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+13,40,救人受了伤、搭进了钱，先找加害人和医保，再去申报见义勇为确认,B,官方规则支持,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+13,41,刀、钢筋、玻璃扎进身体，压住异物周围止血，不要把它拔出来,B,官方规则支持,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+13,42,怀疑骨折就别再动那个部位，托着不动、冷敷 20 分钟以内，别自己掰正,B,官方规则支持,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+14,1,邮箱、支付、社交账号都开二次验证，优先用手机弹窗确认，其次才是短信验证码,A,核心安全建议可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+14,2,邮箱密码单独一个，不和任何网站重复,C,安全实践可信但原等级偏低,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+14,3,手机设锁屏密码，SIM 卡设 PIN 码,C,锁屏密码强烈推荐，SIM PIN属可选加强,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+14,4,手机丢了按这个顺序做：挂失 SIM 卡、远程锁定、改密码、报警、冻结银行卡,C,经验建议,see audit report,limited,partial,see audit report,see audit report,2026-09-20
+14,5,卡被盗刷先挂失冻结再报警，然后要求银行赔：证明「是你自己刷的」是银行的责任,A,银行并非当然赔付,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+14,6,每隔一段时间看一次账号的登录设备和已授权应用，不用的清掉,C,经验建议,see audit report,limited,partial,see audit report,see audit report,2026-09-20
+14,7,别为了用 App 点「全部同意」：不是必需的信息，你不同意也不能拒绝给你服务,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+14,8,你有权查看、复制、更正和删除自己的个人信息，被拒绝可以起诉,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+14,9,刷脸不是必须答应的：有别的办法就不能只让你刷脸，你不同意得给你其他方式,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+15,1,押金的数额、退还时间和扣减情形，必须写进合同,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+15,2,被断水断电、换锁、上门威胁赶人，先报警留证：法规禁止用这些方式逼你腾房,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+15,3,中介不得代收代付租金和押金，钱直接给房东,A,2025住房租赁条例支持,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+15,4,租长租公寓先查它的资金监管账户，别图便宜一次性付一年,A,资金监管账户要求只针对特定经营主体,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+15,5,房子租期内被卖掉，租约继续有效，不用搬,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+15,6,签约前核对产权证和抵押情况，所有款项走转账并备注用途,C,经验建议,see audit report,limited,partial,see audit report,see audit report,2026-09-20
+15,7,二手房让中介代收房款的，必须走中介在银行开的交易资金专用存款账户,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+15,8,别租隔断房：最小出租单位是原设计的房间，厨房、卫生间、阳台不得住人,A,规则可信但需看地方细则,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+16,1,药按医嘱吃满，别感觉好了就停,A,方向正确但不能机械“吃满”,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+16,2,先办门诊慢特病认定再办异地备案，高血压、糖尿病、放化疗、透析、抗排异就能异地直接结算,A,政策方向可信但地区开通不同,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+16,3,复查按医生给的间隔做，把每次的指标记在同一个本子上,C,经验建议,see audit report,limited,partial,see audit report,see audit report,2026-09-20
+16,4,别为了试偏方、保健品停掉正规治疗,C,经验建议,see audit report,limited,partial,see audit report,see audit report,2026-09-20
+16,5,病情稳定的慢性病，在社区医院一次可以开到 12 周的药,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+16,6,在社区签家庭医生之前，问清楚哪些进医保、哪些自费,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+16,7,确诊糖尿病就去查一次眼底，之后按医生给的间隔查；每年查一次脚,A,糖尿病并发症筛查可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+16,8,得过肾结石就把水喝到每天 2.5–3 升，盐降到 6 克以内,A,饮水目标应看尿量而非固定摄入,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+16,9,确诊痛风就长期吃降尿酸药，把血尿酸压到 360 µmol/L 以下并一直维持,A,核心痛风治疗目标可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+17,1,趁老人清醒，书面指定将来的监护人,A,意定监护法律依据明确,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+17,2,把遗嘱立了，记住后立的推翻先立的，公证遗嘱不再优先,A,遗嘱规则已更新,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+17,3,老人的钱单独放一个账户，大额支出定一个双人确认的规矩,C,经验建议,see audit report,limited,partial,see audit report,see audit report,2026-09-20
+17,4,给老人一句可以随时说出口的挡箭牌话术,C,经验建议,see audit report,limited,partial,see audit report,see audit report,2026-09-20
+17,5,凡是让老人先交钱的「投资养老」都别碰：办卡、买床位、买养老公寓、旅居养老、买老年产品是同一套非法集资,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+17,6,除了保险公司的住房反向抵押养老保险，其他「以房养老」都别碰，绝不抵押房子去买理财,B,风险提示可信但范围过窄,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+17,7,家里老人长期卧床或重度失能，去参保地医保部门申请长期护理保险,A,长护险不是全国统一同一待遇,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+17,8,家里有人长期卧床，把压疮当头号敌人：上电动气垫床、定时翻身、每天看一遍骨头突出的地方,B,防压疮方向可信，具体翻身间隔不固定,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+18,1,先把能领的算进来：国家育儿补贴每孩每年 3600 元，发到 3 岁,A,2025起国家育儿补贴已核验,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+18,2,产假 98 天，生育津贴由生育保险基金按单位上年度职工月平均工资发,A,98天是国家基线，各省加假不同,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+18,3,知道这条：不得因怀孕、生育、哺乳降工资或者辞退,A,劳动保护规则明确,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+18,4,时间账按「谁的时间被占掉」算，不按「辛不辛苦」算,C,经验建议,see audit report,limited,partial,see audit report,see audit report,2026-09-20
+18,5,钱账分三段算：0 到 3 岁、义务教育、义务教育之后,C,经验建议,see audit report,limited,partial,see audit report,see audit report,2026-09-20
+18,6,为长辈生、为婚姻生、为养老生，各记一笔账,C,经验建议,see audit report,limited,partial,see audit report,see audit report,2026-09-20
+19,1,加班费按 1.5 倍、2 倍、3 倍三档算，不给就投诉劳动监察，逾期不付还要加付 50% 到 100%,A,加班倍数可信，50%-100%加付有前置条件,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+19,2,年休假按累计工龄算 5、10、15 天，没休成的按日工资 300% 折钱,A,年休假5/10/15天规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+19,3,试用期有法定上限、工资不得低于 80%，而且只能约定一次,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+19,4,被裁先算清 N：每满一年一个月工资，不满六个月按半个月,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+19,5,公司没提前 30 天通知，还要多付一个月工资,A,“没提前30天=必有N+1”过度,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+19,6,公司违法解除的，赔偿金是经济补偿标准的二倍,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+19,7,不要签「个人原因主动辞职」，那一签就没有 N 了,B,风险提示正确但并非签了就绝对无N,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+19,8,离职前把工资条、考勤、劳动合同、社保记录和聊天记录先存下来,C,经验建议,see audit report,limited,partial,see audit report,see audit report,2026-09-20
+19,9,走人之后立刻办两件事：失业登记领失业保险金，看清竞业协议,C,经验建议,see audit report,limited,partial,see audit report,see audit report,2026-09-20
+19,10,进有粉尘、噪声、化学品的岗位之前，先看合同里写没写危害；三次职业健康检查由单位安排并掏钱,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+19,11,粉尘、噪声、化学毒物造成的损伤不可逆：防护用品单位必须给，没有防护措施的作业可以拒绝,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+19,12,上班受伤、上下班路上被撞，第一件事是做工伤认定，单位不报你自己报,A,上下班路上并非“被撞都算工伤”,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+19,13,别信「撑到工位就算工伤」：突发不适先打 120，不是先赶去打卡,A,核心提醒正确，48小时规则需谨慎,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+19,14,单位没给你交工伤保险，工伤待遇一样有，由单位按同样的标准全额出,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+19,15,伤情稳定后去做劳动能力鉴定，伤残等级直接换算成钱,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+19,16,工亡的三笔钱要分清：丧葬补助金、供养亲属抚恤金、一次性工亡补助金,A,部分待核实,see audit report,partial,partial,see audit report,see audit report,2026-09-20
+20,1,让孩子仰着睡，睡硬的平面，同房不同床，床上不放任何软东西,A,强指南支持,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+20,2,出生后 24 小时内打上乙肝疫苗第一针,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+20,3,按国家免疫规划把该打的疫苗打齐，全程免费，错过了只补没打完的剂次,A,国家免疫规划原则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+20,4,前 6 个月只喂母乳，连水都不用喂，6 个月起加辅食并继续母乳,A,母乳喂养建议可信但应保留例外,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+20,5,冲奶粉用 70 ℃ 以上的水，冲好放凉再喂，喝剩的倒掉,A,70℃规则适用于粉状配方奶风险控制,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+20,6,不满 1 岁不喂蜂蜜,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+20,7,出生时的维生素 K 针一定要打,B,有限证据支持,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+20,8,不满 3 个月的婴儿体温到 38 ℃ 就直接去医院，不在家观察,A,高风险年龄段发热应及时评估,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+20,9,无论多累多气都不要摇晃婴儿,C,核心伤害预防可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+20,10,尿布不看牌子看三件事：合不合身、换得勤不勤、有没有被抽检通报过,C,部分待核实,see audit report,partial,partial,see audit report,see audit report,2026-09-20
+20,11,大件按「借、买二手、买新」的顺序考虑，别一次性配齐,C,经验建议,see audit report,limited,partial,see audit report,see audit report,2026-09-20
+21,1,出发前查一次外交部安全提醒，标了「暂勿前往」的地方就别去,A,动态官方提醒应出发前现查,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+21,2,把 12308 和当地使领馆的领保电话存进手机，别等出事再找,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+21,3,知道领事保护能做什么、不能做什么：能探视，不能捞人，费用还得自己付,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+21,4,买一份含境外医疗和医疗转运的保险，别只买航班延误险,C,保险建议合理但保额需个体化,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+21,5,「境外高薪招聘」一律当诈骗看，被骗去做电诈回来还要被限制出境,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+21,6,境外取现一年不能超过 10 万元人民币，是本人名下所有卡合起来算的,A,现行外汇银行卡境外取现年度限额可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+21,7,护照、签证、身份证都拍照存一份在云端，丢了先报警再补旅行证,C,经验建议,see audit report,limited,partial,see audit report,see audit report,2026-09-20
+21,8,境外自驾先确认当地认不认中国驾照，网上卖的「国际驾照」多数是废纸,A,核心警告正确,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+21,9,找中介办签证、留学、移民，先问它有没有在移民管理机构备案,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+21,10,别替陌生人出具邀请函，也别让人借你的名义办出入境手续,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+21,11,出境前把行程、住处和同行人发给一位家人，约好多久联系一次,C,经验建议,see audit report,limited,partial,see audit report,see audit report,2026-09-20
+22,1,进 KTV、酒吧、密室之前先看一眼安全出口在哪，被锁被堵就换一家,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+22,2,点单前要价目表，娱乐场所必须明码标价，不接受「先玩后算」,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+22,3,场子里有人递「东西」就立刻走，容留和提供都不是「帮朋友」,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+22,4,不吃陌生人给的糖和零食，不喝离开过视线的饮料，不接别人递的烟弹,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+22,5,网吧上网用自己的身份证，别借证也别用别人的证,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+22,6,剧本杀、密室别去开在居民楼里或者地下二层以下的,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+22,7,心情差就去走或者跑，抗抑郁的效应量（效果大小）跟强度成正比,A,运动抗抑郁有效，强度关系不宜绝对化,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+22,8,焦虑到影响生活时，正念减压课的效果不劣于常用的抗焦虑药,A,单项非劣效RCT支持特定MBSR课程,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+22,9,当场想缓过来，用 5 分钟「循环叹息」：吸气两段，呼气拉长,B,有限证据支持,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+22,10,把「定期和人见面」当成健康支出，别只在心情差时才找人,A,社会关系与死亡率主要是观察关联,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+22,11,住得离绿地近就多用它，散步、遛弯、坐着都算,A,绿地关联明显但因果较弱,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+23,1,不满 16 周岁没有「去打工」这个选项：招你的单位每月被罚 5000 元，肯招的都是黑工,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+23,2,把「读书有没有用」也放进死亡率账里：每多受一年教育，成人死亡风险降约 1.9%,A,教育与死亡率为观察关联,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+23,3,判断「学历是不是贬值了」之前，先看全国的学历结构：每 10 万人里只有 15467 人有大学文化程度,A,数字真实但已明显过时作当前学历结构,see audit report,verified_contradicted,partial,see audit report,see audit report,2026-09-20
+23,4,「读不起」先按政策算一遍：中职学费大多已免，助学金 2300 元，助学贷款每年最高 2 万,A,政策金额动态,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+23,5,没考上普高不等于路断了：中职有贯通招生和单独考试，技能岗位招聘还可以降学历要求,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+23,6,把「读书还是打工」算成一道题：早挣的三年工资，对上往后几十年的年收入差,B,有限证据支持,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+23,7,先记住基准线：多受一年教育，全球平均的私人回报（落到自己收入上的那部分）约为每年 9%,A,9%是全球长期平均，不是个人项目回报,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+23,8,花钱考证之前，先查这张证在不在国家职业资格目录或人社部备案的评价机构名单里,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+23,9,培训优先走政府补贴渠道，别一上来就自费报商业班,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+23,10,挑技能时优先看「要不要动手、要不要现场判断」，这类最难被自动化顶掉,B,自动化风险框架可用，具体职业概率已陈旧,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+23,11,学之前先确认这个技能有没有等级评价，等级能不能换成钱,B,官方信息支持,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+23,12,别把「网上说工资高」当成缺人，去查当地的紧缺职业目录和补贴目录,C,部分待核实,see audit report,partial,partial,see audit report,see audit report,2026-09-20
+23,13,同样的钱和时间，优先选能直接上岗的短周期项目,C,经验建议,see audit report,limited,partial,see audit report,see audit report,2026-09-20
+24,1,常见病先在社区看，经基层逐级转诊上去，住院起付线接着算,A,分级诊疗方向可信，起付线“接着算”并非全国统一,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+24,2,同一个统筹地区（医保参保地）里，级别越低报销比例越高，差距约 10 个百分点,A,“低级别高约10个百分点”仅是地方常见现象,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+24,3,要去大医院，走基层转诊或者医院的转诊中心，别找号贩子,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+24,4,跨省异地就医之前先在本地问一句，必要性原则上要副主任医师以上评估,A,“原则上副主任医师以上评估”不是全国普遍异地就医前置条件,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+24,5,别再拿三级医院当开药点，稳定期的慢病回基层,A,政策导向正确但不是强制,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+24,6,每次看完病，把病历、检查报告和影像自己存一份,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+24,7,对诊疗有疑问就当场要求封存病历，双方在场、开清单、各执一份,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+24,8,急重的伤病直奔急诊预检分诊台，别去挂号窗口排队,A,急诊预检分诊原则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+24,9,没带钱、没带证件、说不清自己是谁，急诊也必须先救,A,急危重症先救治原则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+24,10,伤残鉴定要等治疗终结之后再做，做早了等级会评低,A,鉴定时点需看鉴定类型,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+24,11,治完之后确实留下功能障碍，去户籍地县级残联申请残疾人证,A,证据映射不足,see audit report,limited,partial,see audit report,see audit report,2026-09-20
+24,12,谢救过你的医生，走感谢信、锦旗和满意度评价，别走红包：准则禁的是财物，不是谢意,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+25,1,人在家里或外面没了，先分清正常死亡还是非正常死亡：意外、死因不明、独居才发现的，立刻报警，遗体和现场不要动,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+25,2,死亡证明是后面所有事的钥匙：谁救治谁开，家中正常死亡找社区卫生服务机构，一日内签发,A,一日内签发不是全国所有场景绝对统一,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+25,3,遗体接运、存放、火化只能走殡仪馆，医院太平间不办殡仪，存放一般不超过 3 日,A,“存放一般不超过3日”高度地方化,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+25,4,对死因有异议，48 小时内提出尸检，同时封存病历,A,48小时尸检窗口需结合具体法律关系,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+25,5,注销户口有法定时限：城市在安葬前，农村在一个月以内,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+25,6,殡葬服务分基础项目和非基础项目，基础项目有清单、收费依法制定,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+25,7,遇到强制搭售、标价外加价、把一项拆成几项收费，记下来投诉,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+25,8,殡葬代理、用品代购、策划主持这类中介，要在县级民政备案,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+25,9,分散在各处的钱要逐个去取：公积金余额、社保待遇、工伤待遇,A,部分待核实,see audit report,partial,partial,see audit report,see audit report,2026-09-20
+25,10,死者的账号和个人信息，近亲属可以要求查阅、复制、更正、删除,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+26,1,平台不要自己收钱再转给卖家，让钱走持牌支付机构直接结算,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+26,2,收费的网站要许可证，撮合交易的是另一类许可，免费的只要备案,A,许可证分类需按具体业务而非“收费/免费”粗分,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+26,3,做直播要网络文化经营许可证，做视听节目的那张证民营基本拿不到,A,直播许可规则需按内容类型区分,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+26,4,服务器放境内就要备案，接入商必须自己持有增值电信许可,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+26,5,让用户上来卖东西，平台就要核验登记、报送信息、留存三年,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+26,6,用户发的内容你要管：审核机制、举报入口、发现违法立即停传并报告,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+26,7,提供信息发布、即时通讯服务，必须要求用户提供真实身份信息,A,网络实名核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+26,8,不给未满 16 周岁的人开直播，打赏按年龄分档处理,A,未成年人直播/打赏规则处于多规范衔接期,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+26,9,接到侵权通知要及时处理，转送声明后 15 日没有下文就恢复,A,15日规则仅适用于电商法反通知场景,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+26,10,用户信息不要随手放到境外，出境有法定条件和人数门槛,A,个人信息出境有法定路径,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+26,11,选服务器先看停机能不能忍，再看有没有人运维，最后才比价,C,经验建议,see audit report,limited,partial,see audit report,see audit report,2026-09-20
+27,1,准备怀孕就开始每天补 0.4 毫克叶酸，一直吃到孕早期满 3 个月,A,叶酸0.4mg孕前至孕早期证据强,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+27,2,孕 13 周前去社区卫生服务中心建《母子健康手册》，把免费产检额度用掉,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+27,3,第一次产检就把艾滋病、梅毒、乙肝三项查掉，查出来也有免费的阻断,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+27,4,整个孕期一支烟一口酒都不要，家里人也别在屋里抽,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+27,5,有子痫前期高危因素的，孕 12 周后开始每天一片小剂量阿司匹林,A,高危孕妇小剂量阿司匹林方向可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+27,6,孕 24 周及以后做一次妊娠期糖尿病筛查，别嫌喝糖水麻烦,A,妊娠糖尿病筛查可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+27,7,背下这张「立刻去医院」的清单，孕期和产后一年内都算数,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+27,8,破水了就地平躺、垫高臀部、打 120，不要走动也不要洗澡,B,“破水就垫高臀部平躺不走动”过度且可能误导,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+27,9,想要无痛分娩就直接说，它不增加剖宫产的风险,A,无痛分娩不增加剖宫产风险证据较强,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+27,10,没有医学指征就别主动要求剖宫产，也别为了挑日子开刀,A,无医学指征剖宫产不宜常规选择,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+27,11,怀孕前就确认生育保险的参保状态，未就业的配偶也能报生育医疗费用,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+27,12,出院前把《出生医学证明》办掉，名字提前想好、别写错字,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+27,13,新生儿足跟血筛查和听力筛查都别拒绝,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+27,14,拿到出生医学证明就给孩子办居民医保，别等落完户,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+27,15,孩子出生后一个月以内去派出所申报出生登记,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+27,16,产后 42 天那次复查别跳过，它同时是产后抑郁的筛查,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+28,1,不要用极端节食、断食或催吐来控制体重，要减就从运动那一侧减,A,“减重从运动那一侧减”过度,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+28,2,打针、埋线、开刀之前查两样：机构许可证上有没有「医疗美容」，动手的人是不是主诊医师,A,医美机构与执业资质核验非常重要,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+28,3,面部填充避开鼻背、眉间、额头这几个部位，更别为省钱找非正规注射,B,高风险部位提示可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+28,4,不要买承诺「快速瘦」的减肥药、减肥咖啡、瘦身糖果和酵素梅,A,非法减肥产品风险明确,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+28,5,不要用合成代谢类固醇（「增肌针」「口服药」）来长肌肉,A,合成代谢类固醇非医疗使用风险明确,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+28,6,要吃减肥药就去医院拿处方，别在不用处方就发货的网店买,B,处方减重药应在医疗监督下使用,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+28,7,性激素类药只在医生开方并定期复查的前提下用，不要网购、不要自己加量,A,激素类药需医生监测,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+28,8,如果「觉得自己丑」已经到反复照镜子、反复想改的程度，先做一次体像评估再谈手术,B,体像障碍筛查方向合理,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+29,1,亲人刚走的那几天别一个人待着，有心脏病、高血压、糖尿病的照常吃药，胸口压着疼就叫 120,A,丧亲后急性心血管风险升高是观察性证据,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+29,2,被告知重病诊断的那一周，别一个人去拿报告，治疗以外的决定往后放,A,癌症等重病诊断后短期自杀/心血管风险升高有观察证据,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+29,3,失业之后先把作息、医保和找工作的节奏固定下来，别整天待在家里,A,失业与心理/死亡风险相关，干预动作部分是经验,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+29,4,亲人死于自杀、意外或凶案的，别指望硬扛，主动去找专业帮助,A,高危丧亲主动寻求专业帮助方向可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+29,5,丧偶后的头半年，把三餐、睡觉、慢性病的药和复查交给一个固定的人盯着,A,✅/🟡 研究支持,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+29,6,没有亲人也没有朋友的，把「那个人」换成三样东西：能进你家门的邻居、社区的探访名单、手机里的紧急联络,B,有限证据支持,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+29,7,家长去世后，如实告诉孩子、让他参加告别、别送去别处「换个环境」,B,有限证据支持,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+29,8,哀伤过了半年还在原地、日子过不下去，去精神科或临床心理科挂号,A,“半年”不能机械作为诊断线,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+29,9,别一上来就花钱做哀伤咨询，先看自己的哀伤是不是真的卡住了（第 8 条那几条症状）,A,不必所有哀伤者立即接受治疗,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+29,10,分居离婚之后别断医保、别用酒顶着,A,✅/🟡 研究支持,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+29,11,要人陪着说话打 12356，未成年人和青少年打 12355，要看医生挂心理门诊,B,官方信息支持,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+29,12,变故后的头三个月，凡是不可逆的大决定一律往后推,C,经验建议,see audit report,limited,partial,see audit report,see audit report,2026-09-20
+29,13,别拿死当还债的办法：两年内的寿险不赔，工伤不认，债照样先从遗产里扣,A,“两年内寿险不赔”表述不完整,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+30,1,孩子说突然剧痛、而且越来越重，立刻去医院，不要让他忍到放学,A,突发进行性剧痛应及时就医，但并非所有剧痛都同一窗口,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+30,2,该做的治疗别为了「等考完」往后拖，有些窗口跟着骨龄走，不跟着考试安排走,A,某些儿童治疗确有生长/骨龄窗口,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+30,3,孩子被欺凌，当天就报到学校并要求书面处理，涉及打人、抢钱、传谣的直接报警,A,欺凌与心理伤害关联可信，报警条件需看行为,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+30,4,让孩子每天在户外待够 2 小时，这是目前唯一有随机试验支持的防近视办法,A,户外防近视有RCT支持，但“唯一”过度,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+30,5,每年那次学生体检的报告单要自己看一遍，异常项当年带去医院查,B,官方信息支持,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+30,6,12 到 18 岁的孩子做一次抑郁筛查，别拿学校的心理测评当诊断,B,美国USPSTF支持12–18岁筛查，国内落地需本地规范,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+30,7,不买号称能「治愈近视」「降低度数」的产品和服务,B,官方信息支持,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+30,8,睡眠、作业、体育和排名都有明文规定，学校做不到可以提,B,官方信息支持,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+30,9,孩子撑不住了可以休学，学籍学校必须给他留着，最长 1 年,B,“休学最长1年”不是全国统一,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+30,10,查出视力不良，去医院做散瞳验光，之后按医生给的间隔复查,B,官方信息支持,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+30,11,恒磨牙长出来以后做窝沟封闭,A,窝沟封闭证据较强,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+31,1,先把门槛对一遍：十二条路的年龄和学历要求都是明文写死的,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+31,2,十八岁那年 10 月 31 日前要做兵役登记；义务兵服现役就是两年,A,兵役登记义务真实，日期和对象需按年度通知,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+31,3,应征之后拒服兵役，两年内不准出境或升学复学，还进不了公务员和国企,A,拒服兵役有严重惩戒，但具体措施依违法类型,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+31,4,大学生当兵最实的两块：学费每年补最高 20000 元，学籍保留两年、考研有专项计划,A,部分政策文件待核实,see audit report,partial,partial,see audit report,see audit report,2026-09-20
+31,5,退役后只有六种情况由政府安排工作；自主就业的 30 日内必须报到,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+31,6,退役后的三笔账：一次性退役金、军龄算工龄、自己干每年扣减 20000 元税,A,部分待核实,see audit report,partial,partial,see audit report,see audit report,2026-09-20
+31,7,想进体制内不止考公一条：基层服务项目干满两年，能报每年 10% 的定向考录计划,A,“每年10%定向考录计划”不是长期统一比例,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+31,8,特岗教师三年服务期满、考核合格又愿意留下的，应当及时入编,A,特岗期满入编需满足地方岗位和考核条件,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+31,9,消防员和军队文职是另外两个公开招录的口子，门槛比考公低,A,“门槛比考公低”是评价性结论,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+31,10,学历不是一锤子买卖：自考不限年龄和已受教育程度，成人高考和开放大学都能补,A,继续教育通道可信，具体招生条件动态,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+31,11,不进单位就是灵活就业：养老和医疗要自己在就业地参保，户籍限制已经放开,A,户籍限制正在放宽但并非完全取消,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+31,12,送外卖、跑网约车、拉同城货运，平台按单给你交职业伤害保障费，自己不缴,A,2026-07-01后职业伤害保障全国扩围,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+31,13,高考填志愿那天就能锁定编制的两条路：公费师范生和定向医学生，代价是 6 年履约,A,两类定向培养有履约义务但不是“填志愿当天锁定编制”,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+31,14,想出国打工，先查这家公司有没有对外劳务合作经营资格：它不得向你收押金,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+31,15,在家给境外公司远程干活，这笔钱在税法上算境内所得：个税自己报，收汇走「职工报酬」,A,核心规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+31,16,不进单位自己干，起步钱先看创业担保贷款：个人最高 30 万、财政贴一半利息,A,创业担保贷款额度与贴息是动态政策,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+32,1,交学费之前先查学校在不在留服中心的认证院校名单里,A,核心做法可信但“认证院校名单”不是永久白名单,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+32,2,美国 2026 年 9 月 15 日起改了规矩：F-1 学生签证不再是「读完为止」，最长四年，读完 30 天内走,A,新规核心正确，但必须写清过渡期,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+32,3,打工时数是四国都写死的红线，超一小时就是违反签证条件,A,各国工时限制可信，但“超1小时就一定立即违法”过于机械,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+32,4,身份的根是「全日制在读」：休学、退学、转学空档期一律不能打工,A,全日制身份是核心，但“空档期一律不能打工”有例外,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+32,5,美国：搬家后 10 天内必须报新地址,A,美国地址变更10日规则可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+32,6,出发前和在读期间，看一眼教育部的留学预警,A,留学预警应动态查看,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+32,7,澳大利亚：OSHC 必须覆盖全程且中间不能断，落地拿不出保险可能被拒绝入境,A,澳大利亚OSHC全程覆盖要求可信,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+32,8,英国：签证费之外还有一笔按年收的医疗附加费，学生每年 776 英镑，申请时一次付清,A,英国学生IHS £776/年已核验,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+32,9,回国前留出认证时间：留服认证要 10 到 20 个工作日,A,认证处理时长并非刚性10–20个工作日,see audit report,verified,partial,see audit report,see audit report,2026-09-20
+32,10,认证被「加强审查」的学校每年都在加，花钱买文凭这条路已经走不通,A,加强审查真实，但“买文凭已走不通”是结论性表述,see audit report,verified,partial,see audit report,see audit report,2026-09-20
