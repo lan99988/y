@@ -31,3 +31,5 @@ chapter,item,title,original_grade,audit_status,study_design,source_status,numeri
 1,30,"自杀念头出现尽快告诉身边人",B,"基本可信但样本小","单中心回顾访谈","verified","match","low","partial","2026-09-20"
 1,33,"不要卖肾/切肾换钱",A,"基本可信但正规捐献不能直接量化黑市","大型队列","verified","match for donors","moderate","partial","2026-09-20"
 1,34,"不拆来路不明放射源部件",A,"已核验可信","官方监管数据+事故报告","verified","match","descriptive/legal","good","2026-09-20"
+1,31,"中毒救回来也可能留后遗症",B,"基本可信但多研究拼接","毒理综述+RCT","verified","match for cited outcomes","mixed","partial","2026-09-20"
+1,32,"高处坠落存活仍可能重伤",B,"基本可信但人群外推明显","单中心回顾队列","verified","match","low-moderate","partial","2026-09-20"
